@@ -133,7 +133,7 @@ When the "plain" mode is enabled:
 
 User-specified provisioning scripts will be still executed.
 
-#### Can I run graphical applications with Lima?
+#### Can I run graphical applications on MacOS with Lima?
 
 One way to run run graphical applications with Lima is to install
 [XQuartz](https://www.xquartz.org/) and add the following options to your
