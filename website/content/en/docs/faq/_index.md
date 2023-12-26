@@ -144,6 +144,8 @@ ssh:
   forwardX11: true
 ```
 
+Then, connect to the VM as normal using `lima` or `limactl shell`.
+
 It is best to use QEMU VMs (as opposed to VZ) as they have some amount of
 support for OpenGL and graphical acceleration for X11 apps.
 
