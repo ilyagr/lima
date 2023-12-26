@@ -133,6 +133,21 @@ When the "plain" mode is enabled:
 
 User-specified provisioning scripts will be still executed.
 
+#### Can I run graphical applications with Lima?
+
+One way to run run graphical applications with Lima is to install
+[XQuartz](https://www.xquartz.org/) and add the following options to your
+`lima.yaml` file:
+
+```yaml
+ssh:
+  forwardX11: true
+```
+
+It is best to use QEMU VMs (as opposed to VZ) as they have some amount of
+support for OpenGL and graphical acceleration for X11 apps.
+
+
 ### QEMU
 #### "QEMU crashes with `HV_ERROR`"
 If you have installed QEMU v6.0.0 or later on macOS 11 via homebrew, your QEMU binary should have been already automatically signed to enable HVF acceleration.
