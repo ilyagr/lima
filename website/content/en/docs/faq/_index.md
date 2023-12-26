@@ -137,7 +137,7 @@ User-specified provisioning scripts will be still executed.
 
 One way to run run graphical applications with Lima is to install
 [XQuartz](https://www.xquartz.org/) and add the following options to your
-`lima.yaml` file:
+the config (opened with `limactl edit`):
 
 ```yaml
 ssh:
